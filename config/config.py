@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "16539189"))
 API_HASH = getenv("API_HASH", "d628a8776c2985b0023c5ba28eb31df5")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5511212620:AAEOSNIDb_ju6hd3Bxy-oo5h-5avWBvlhYQ")
+BOT_TOKEN = getenv("BOT_TOKEN", "5893122147:AAH31uWEtuG857t16EUqJclknAUpnOiXB2U")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb://Vaibhav:vaibhav123@cluster0-shard-00-00.x8ulj.mongodb.net:27017,cluster0-shard-00-01.x8ulj.mongodb.net:27017,cluster0-shard-00-02.x8ulj.mongodb.net:27017/?ssl=true&replicaSet=atlas-f748m5-shard-0&authSource=admin&retryWrites=true&w=majority")
@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001679983263"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Rem")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Mikuu")
 
 # Your User ID.
 OWNER_ID = list(
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/spryslade/RemMusic-Vps",
+    "https://github.com/spryslade/mikuu",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
